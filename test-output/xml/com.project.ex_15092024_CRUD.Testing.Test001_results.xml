@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/Hemlata Bisht/IdeaProjects/ATB7xAPIAutomationProgram"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.295">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_get"
+                time="3.295"
+                classname="com.project.ex_15092024_CRUD.Testing.Test001">
+            </testcase>
+</testsuite>
