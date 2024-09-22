@@ -28,15 +28,42 @@ public class NonBDDStyle {
     // POST - Auth - token
     // POST - Booking ID
     // PUT - token and BookingID
+    public void get_token(){
+
+    }
+    public void get_bookingid(){
+
+    }
+
     @Test
     public void test_put_positive_tc(){
         // POST - Auth - token
-        String payload_token="\"firstname\": \"Jim\",\n" +
-                "        \"lastname\": \"Brown\"";
+        String token ="c8b53e70bcc2ef5";
+        String bookingid= "2593";
+        String payloadPUT= "{\n" +
+                "    \"firstname\" : \"Hemlata\",\n" +
+                "    \"lastname\" : \"Bisht\",\n" +
+                "    \"totalprice\" : 111,\n" +
+                "    \"depositpaid\" : false,\n" +
+                "    \"bookingdates\" : {\n" +
+                "        \"checkin\" : \"2024-01-01\",\n" +
+                "        \"checkout\" : \"2024-01-01\"\n" +
+                "    },\n" +
+                "    \"additionalneeds\" : \"Lunch\"\n" +
+                "}";
         requestSpecification = RestAssured.given();
         requestSpecification.baseUri("https://restful-booker.herokuapp.com/");
-        requestSpecification.basePath();
+        requestSpecification.basePath("/booking/"+bookingid);
         requestSpecification.contentType(ContentType.JSON);
+        requestSpecification.cookie("token",token);
+        requestSpecification.body(payloadPUT).log().all();
+
+        response = requestSpecification.when().put();
+
+        // Verification
+        validatableResponse =response.then().log().all();
+        validatableResponse.statusCode(200);
+
     }
 
 
