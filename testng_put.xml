@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Hemlata Bisht/IdeaProjects/ATB7xAPIAutomationProgram">
         <classes>
-        <class name= "com.project.ex_15092024_CRUD.PUT.NonBDDStyle">
+        <class name= "com.project.ex_15092024_Crud.PUT.NonBDDStyle">
         </class>
         </classes>
     </test>

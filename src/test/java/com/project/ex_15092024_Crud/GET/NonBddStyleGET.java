@@ -1,4 +1,4 @@
-package com.project.ex_15092024_CRUD.GET;
+package com.project.ex_15092024_Crud.GET;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;

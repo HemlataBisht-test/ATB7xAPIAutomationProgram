@@ -12,6 +12,6 @@
             <testcase
                 name="test_get"
                 time="3.295"
-                classname="com.project.ex_15092024_CRUD.Testing.Test001">
+                classname="com.project.ex_15092024_Crud.Testing.Test001">
             </testcase>
 </testsuite>

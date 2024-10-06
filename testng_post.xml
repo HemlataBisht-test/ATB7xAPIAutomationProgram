@@ -3,9 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Hemlata Bisht/IdeaProjects/ATB7xAPIAutomationProgram">
         <classes>
-        <class name= "com.project.ex_15092024_CRUD.POST.CreateToken.BDDStylePOST">
+        <class name= "com.project.ex_15092024_Crud.POST.CreateToken.BDDStylePOST">
         </class>
-            <class name= "com.project.ex_15092024_CRUD.POST.CreateToken.NonBDDStylePOST">
+            <class name= "com.project.ex_15092024_Crud.POST.CreateToken.NonBDDStylePOST">
             </class>
         </classes>
     </test>

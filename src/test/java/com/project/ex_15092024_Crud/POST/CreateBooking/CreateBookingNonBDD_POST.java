@@ -1,4 +1,4 @@
-package com.project.ex_15092024_CRUD.POST.CreateBooking;
+package com.project.ex_15092024_Crud.POST.CreateBooking;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

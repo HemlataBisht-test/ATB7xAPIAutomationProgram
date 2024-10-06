@@ -1,4 +1,4 @@
-package com.project.ex_15092024_CRUD.PUT;
+package com.project.ex_15092024_Crud.PUT;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

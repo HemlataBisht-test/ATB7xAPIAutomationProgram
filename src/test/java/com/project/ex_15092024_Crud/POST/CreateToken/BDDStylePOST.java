@@ -1,4 +1,4 @@
-package com.project.ex_15092024_CRUD.POST.CreateToken;
+package com.project.ex_15092024_Crud.POST.CreateToken;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

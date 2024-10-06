@@ -1,4 +1,4 @@
-package com.project.ex_15092024_CRUD.Testing;
+package com.project.ex_15092024_Crud.Testing;
 
 import org.testng.annotations.*;
 
